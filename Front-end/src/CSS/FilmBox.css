@@ -1,0 +1,20 @@
+.allFilms_C{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1%;
+    justify-self: center;
+}
+
+.eachFilm_C{
+    border: black solid 3px;
+    
+}
+
+
+.filmPoster_C{
+    border: black solid 3px;
+}
+
+.filmPoster_C:hover{
+    filter: brightness(60%);
+}

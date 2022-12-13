@@ -1,0 +1,30 @@
+{"films": [{
+  "MovieID": "Paprika2006",
+  "MovieTitle": "Paprika",
+  "MovieYear": "2006",
+  "MovieRuntime": 90,
+  "MovieGenres": ["Drama", "Mystery", "Animation", "Sci-fi"],
+  "MovieSynopsis": "When a machine that allows therapists to enter their patient’s dreams is stolen, all hell breaks loose. Only a young female therapist can stop it: Paprika.",
+  "MovieLang": "Japanese",
+  "MovieCountry": "Japan"
+},
+{
+  "MovieID": "ChungkingExpress1994",
+  "MovieTitle": "Chungking Express",
+  "MovieYear": "1994",
+  "MovieRuntime": 103,
+  "MovieGenres": ["Romance", "Comedy", "Drama"],
+  "MovieSynopsis": "Two melancholic Hong Kong policemen fall in love: one with a mysterious underworld figure, the other with a beautiful and ethereal server at a late-night restaurant he frequents.",
+  "MovieLang": "Cantonese",
+  "MovieCountry": "Hong Kong"
+},
+{
+  "MovieID": "TheRaid22014",
+  "MovieTitle": "The Raid 2",
+  "MovieYear": "2014",
+  "MovieRuntime": 150,
+  "MovieGenres": ["Crime","Action", "Thriller"],
+  "MovieSynopsis": "After fighting his way through an apartment building populated by an army of dangerous criminals and escaping with his life, SWAT team member Rama goes undercover, joining a powerful Indonesian crime syndicate to protect his family and uncover corrupt members of his own force.",
+  "MovieLang": "Indonesian",
+  "MovieCountry": "Indonesia"
+}]}

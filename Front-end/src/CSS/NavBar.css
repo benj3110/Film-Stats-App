@@ -1,0 +1,42 @@
+.Nav-Bar{
+  border: black solid 3px;
+ 
+  background-color: hsl(210, 79%, 55%);
+  
+  width: 100%;
+  
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: fit-content;
+}
+
+.Nav-Link {
+  border: black solid 3px;
+  
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  
+  padding: 0.5%;
+  width: 10%;
+  border-radius: 40px;
+  
+}
+
+.Nav-Link:hover {
+  background-color: hsl(210, 100%, 45%);;
+}
+
+.Search-Bar{
+  border: black solid 3px;
+  background: hsl(210, 79%, 55%);
+  
+  border-radius: 40px;
+  padding: 0.4%;
+  display: flex;
+  justify-content: center;
+    
+}
+
+
