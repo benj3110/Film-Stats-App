@@ -3,7 +3,6 @@ import { GetFilms } from "./Apis";
 import { useNavigate } from 'react-router-dom';
 import FilmDataTypes from "../Interfaces/FilmDataTypes";
 import "../CSS/FilmBox.css";
-import FilmDisplay from "./FilmDisplay";
 
 const FilmList = () => {
 	const popular: string = "popular";
@@ -47,9 +46,6 @@ const FilmList = () => {
 					</div>
 				);
 			})}
-			<div>
-				{/* <FilmDisplay id = {"436270"}/> */}
-			</div>
 		</div>
 	);
 };
