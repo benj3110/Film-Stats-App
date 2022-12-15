@@ -1,6 +1,8 @@
 import Axios, { AxiosResponse, CancelTokenSource } from "axios";
 import FilmDataTypes from "../Interfaces/FilmDataTypes";
 
+//todo add cancel token properly
+
 //* ALL API CALLS
 export async function GetFilms(props: string): Promise<FilmDataTypes[] | null> {
 	let popular: string;
@@ -9,7 +11,6 @@ export async function GetFilms(props: string): Promise<FilmDataTypes[] | null> {
 
 	try {
 		const filmData: AxiosResponse<any, any> = await Axios.get(
-			//todo add cancel token properly
 			`https://api.themoviedb.org/3/movie/${popular}?api_key=${
 				import.meta.env.VITE_TMDB_API_KEY
 			}&language=en-US&page=1`,
