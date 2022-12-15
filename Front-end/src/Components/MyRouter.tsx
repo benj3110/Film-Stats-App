@@ -15,7 +15,7 @@ const MyRouter = () => {
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/Profile" element={<Profile />} />
-        		{/* <Route path="/" element={<FilmDisplay />} /> */}
+        		<Route path={"/Film"} element={<FilmDisplay />} />
 			</Routes>
 		</BrowserRouter>
 	);

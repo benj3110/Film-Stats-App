@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { GetFilms } from "./Apis";
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import FilmDataTypes from "../Interfaces/FilmDataTypes";
 import "../CSS/FilmBox.css";
 
@@ -27,6 +27,8 @@ const FilmList = () => {
 		popularFilmsWrap();
 	}, []);
 
+	//todo decide on link url for each film
+
 	
 	return (
 		<div className="allFilms_C">
@@ -34,15 +36,17 @@ const FilmList = () => {
 				return (
 					<div key={filmData.id} className="eachFilm_C">
 						<p className="filmTitle_C">{filmData.title}</p>
-						<img
-							className="filmPoster_C"
-							src={
-								images.baseURL +
-								images.posterSize[2] +
-								filmData.poster_path
-							}
-							alt=""
-						/>
+						<Link to={"/Film"} state={filmData.id}>
+							<img
+								className="filmPoster_C"
+								src={
+									images.baseURL +
+									images.posterSize[2] +
+									filmData.poster_path
+								}
+								alt=""
+							/>
+						</Link>
 					</div>
 				);
 			})}
